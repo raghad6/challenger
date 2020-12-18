@@ -17,7 +17,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   background: #d296df;
-  background: linear-gradient(-40deg, #7e5b7c 0%, #650079 100%);
+  background: linear-gradient(-20deg, #290220 0%, #fb0ef0 80%);
 }
 
 .main-slide .story-image {
@@ -30,7 +30,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("11.png");
+  background-image: url("img/11.png");
   background-size: 40%;
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -43,21 +43,53 @@ a {
 .main-slide .content-wrapper h1 {
   font-family: 'Roboto', serif;
   color: white;
-  font-size: 86px;
+  font-size: 80px;
   margin: 0;
   font-weight: 400;
 }
 
 .main-slide .content-wrapper p {
   font-family: Arial, Helvetica, sans-serif;
-  color: #a13d9c;
-  font-size: 49px;
+  color: #3d083b;
+  font-size: 30px;
   margin: 0;
 }
 
-.main-slide .Footer {
+.main-slide .content-wrapper .b1 {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  border-radius: 2em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: 29px;
+  width: 241px;
+  margin-top: 50px;
+}
+
+.main-slide .content-wrapper .b2 {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  border-radius: 2em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: 29px;
+  margin-top: -2px;
+}
+
+.main-slide .footer {
   position: absolute;
   bottom: 10px;
-  color: #650079;
+  color: #5c033e;
+  margin-left: 98px;
 }
 /*# sourceMappingURL=app.css.map */
