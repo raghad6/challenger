@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width. initial-scale=1.0">
-        <title>Challenger</title>
-    </head>
-    <body>
-        <section class="main-slide">
-            <div class="story-image">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width. initial-scale=1.0">
+    <title>Challenger</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<script>
+    function changeColor() {
+        var first_color = document.getElementById('first_color').value;
+        var secondary_color = document.getElementById('secondary_color').value;
+
+        document.getElementById("main-slide").style.background = first_color
+        document.getElementById("main-slide").style.background = secondary_color
+    }
+</script>
+
+<body>
+    <div class="pick_color">
+        <input type="color" id="first_color" onclick="changeColor()" name="mycolor">
+        <input type="color" id="secondary_color" onclick="changeColor()" name="mycolor">
+    </div>
+    <section class="main-slide" id="main-slide">
+        <div class="story-image">
             <div class="content-wrapper">
                 <h1>Challenger</h1>
                 <p>Test your Knowledge and Skills instantly</p>
-                <div class="actions">
-                    <a href="#">AskMe</a>
-                    <a href="#">Speedometer</a>
+                <div>
+                    <a href="#" class="b1">AskMe</a>
+                    <br>
+                    <br>
+                    <a href="#" class="b2">Speedometer</a>
                 </div>
             </div>
         </div>
-            <div class="Footer">
-                <span>A PSEU Project</span>
-            </div>
-        </section>
-    </body>
+        <div class="footer">
+            <span>A PSEU Project</span>
+        </div>
+    </section>
+</body>
+
 </html>
